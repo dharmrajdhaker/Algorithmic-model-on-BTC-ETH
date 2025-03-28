@@ -162,7 +162,7 @@ python main.py \
 **Dharmraj Dhaker**  
 Lead Quantitative Developer  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/dharmraj-dhaker-a436b4250)  
-📧 dharmrajdhaker89@email.com  
+📧 dharmrajdhaker89@gmail.com  
 🌐 [Professional Website](https://yourportfolio.com)
 
 ## ⚠️ Disclaimer
