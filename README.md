@@ -1,5 +1,5 @@
 
-# Advanced Algorithmic Trading Framework for Cryptocurrencies
+# Advanced Mathematical Algorithmic Trading Framework for BTCUSDT
 **Quantitative Trading System with Adaptive Risk Management**  
 
 
@@ -32,22 +32,23 @@
 
 ## 🚀 Key Features
 
+
 ### 📈 Signal Generation Engine
 - **Multi-Timeframe Convergence Analysis**
   - 4-hour granular data combined with daily trend confirmation
   - Adaptive weight allocation based on market regime
+  - This strategy can counter both trending and reversal market
+  - This strategy works in multiple timeframes as well as multiple cryptocurrencies which make it robust
 - **Mathematical Volatility Modeling**
-  - Hawkes process-based volatility surge detection
+  - Mathematical process-based volatility surge detection
   - Quantile regression for regime classification
 - **Advanced Pattern Recognition**
-  - RSI divergence with fractal confirmation
+  - Reversal detection with fractal confirmation
   - EMA/SMA confluence zones (5/9/60 periods)
   - Volume-Weighted Price Action Analysis
 
 ### 🛡️ Risk Management System
 - **Dynamic Position Sizing**
-  - Kelly Criterion-based capital allocation
-  - Volatility-adjusted leverage scaling (1-5x)
 - **Adaptive Exit Mechanisms**
   - Trailing stop-loss with 15% floor
   - Time-decay profit protection
@@ -69,26 +70,12 @@
 ## 🧮 Methodology
 
 ### Core Mathematical Models
-1. **Hawkes Process Volatility Estimator**
-   ```python
-   λ(t) = μ + α∑_{t_i < t} e^{-β(t - t_i)}
-   ```
-   - μ: Baseline volatility
-   - α: Excitation factor
-   - β: Decay rate
+1. **Mathematical Process Volatility Estimator**
 
 2. **Adaptive Trend Filter**
-   ```python
-   Trend Score = ω₁EMA₅ + ω₂SMA₆₀ + ω₃ADX₂₅
-   ```
-   - Dynamic weight adjustment (ω) based on volatility regime
-
-3. **RSI Divergence Detector**
-   ```python
-   Bullish Divergence = (Price Low ↘) ∧ (RSI Low ↗)
-   Bearish Divergence = (Price High ↗) ∧ (RSI High ↘)
-   ```
-
+  
+3. **Reversal Detector**
+  
 ## ⚙️ Installation
 
 ### Requirements
@@ -125,7 +112,7 @@ pip install -r requirements.txt
 ### Backtest Execution
 ```bash
 python main.py \
-  --leverage 2 \
+  --leverage 1 \
   --fee_rate 0.0005 \
   --initial_capital 10000
 ```
@@ -150,7 +137,7 @@ python main.py \
 
 ### Risk Analysis
 ![Drawdown Profile](https://github.com/user-attachments/assets/48a5c6bc-f52b-4d2f-9bab-04c80f6c4bbf)
-*Maximum drawdown duration: 14 days | Recovery factor: 8.2*
+*Maximum drawdown : 14% | Recovery factor: 8.2*
 
 ### P&L Distribution
 ![Profit Histogram](https://github.com/user-attachments/assets/21e31fe6-f343-485b-b52e-c7c8d9e9e235)
@@ -169,29 +156,7 @@ python main.py \
 ├── results/            # Backtest outputs
 ├── requirements.txt    # Dependency list
 └── main.py             # Execution entry point
-```
 
-## 🤝 Contribution
-We welcome contributions through:
-1. **Code Improvements**
-   - Algorithm optimization
-   - Additional indicators
-   - Enhanced risk models
-
-2. **Research Collaboration**
-   - Alternative volatility models
-   - Machine learning integration
-   - Market microstructure analysis
-
-**Contribution Process:**
-```bash
-git checkout -b feature/your-feature
-git commit -m "feat: Add your feature"
-git push origin feature/your-feature
-```
-
-## 📜 License
-MIT License - See [LICENSE](LICENSE) for full text
 
 ## 📧 Contact
 **Dharmraj Dhaker**  
@@ -201,68 +166,6 @@ Lead Quantitative Developer
 🌐 [Professional Website](https://yourportfolio.com)
 
 ## ⚠️ Disclaimer
-This software is provided for **educational and research purposes only**. Cryptocurrency trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. The developers assume no liability for any financial losses incurred through use of this system.
-
-``` 
-
-This enhanced README:
-1. Adds detailed mathematical formulations
-2. Includes system requirements and installation specifics
-3. Expands methodology section with equations
-4. Provides clear CLI documentation
-5. Adds professional contribution guidelines
-6. Includes comprehensive risk disclosures
-7. Uses proper image embedding with descriptions
-8. Maintains academic rigor while being accessible
+This information is provided for **educational and research purposes only**. Cryptocurrency trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. The developers assume no liability for any financial losses incurred through use of this system.
 
 Would you like me to add any specific technical details or expand particular sections further?# Advanced mathematical-model-on-BTC-ETH
-
-# Algorithmic Trading Framework for Cryptocurrencies 
-
-## 🏆 Performance Metrics (2019-2023 Backtest)
-| Metric                | No Leverage | 2x Leverage |
-|-----------------------|-------------|-------------|
-| Total Return          | 7000+%        | 150000+%        |
-| Sharpe Ratio          | 10.2        | 9.8         |
-| Max Drawdown          | 15%       | 29.3%       |
-| Win Rate              | 60%       | 60%       |
-
-## 🚀 Core Features
-- **Multi-Timeframe Analysis** (4H + 1D data integration)
-- **Advanced Signal Generation**:
-  - Mathematical process-based Volatility Surges
-  - Accurate reversal Detection
-  - EMA/SMA Trend Filtering (5/9/60 periods)
-  - This strategy can counter both trending and reversal market
-- **Risk Management System**:
-  - Dynamic stoploss, target and  Position Sizing
-  - Trailing Stop-Loss (15% threshold)
-  - Drawdown Control System
-- **Backtesting Engine**:
-  - Leverage Simulation (1-5x)
-  - Transaction Cost Modeling
-  - Equity Curve Analysis
-
-# Expected outputs:
-# - result.png (all matrix )
-# <img width="446" alt="Screenshot 2025-03-28 at 10 38 22 PM" src="https://github.com/user-attachments/assets/0a28a484-f472-4201-89d1-2a6fe1ffd101" />
-
-# - btc_signals.png (visualization)![WhatsApp Image 2025-03-28 at 22 44 27](https://github.com/user-attachments/assets/505808b1-e441-4cf0-9017-a04402570a29)
-
-# - btc_equity.png (performance chart)![WhatsApp Image 2025-03-28 at 22 48 33](https://github.com/user-attachments/assets/e54f9ac7-096a-448b-99a4-46950f79e92e)
-
-# - btc_drawdown.png (risk analysis)![WhatsApp Image 2025-03-28 at 22 48 44](https://github.com/user-attachments/assets/48a5c6bc-f52b-4d2f-9bab-04c80f6c4bbf)
-# - btc_pnl.png ![WhatsApp Image 2025-03-28 at 22 44 00](https://github.com/user-attachments/assets/21e31fe6-f343-485b-b52e-c7c8d9e9e235)
-
-## 📊 Output Analysis
-| File                | Description                          |
-|---------------------|--------------------------------------|
-| `btc_signals.png`   | Entry/exit points visualization      |
-| `btc_equity.png`    | Capital growth curve                 |
-| `btc_drawdown.png`  | Risk profile analysis                |
-| `btc_pnl.png`       | Profit distribution histogram        |
-
-## 📧 Contact
-**Dharmraj Dhaker**  
-[🔗 LinkedIn](www.linkedin.com/in/dharmraj-dhaker-a436b4250)  
-📧 dharmrajdhaker89@email.com
