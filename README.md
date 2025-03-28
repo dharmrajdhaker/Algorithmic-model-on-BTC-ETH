@@ -1,5 +1,5 @@
 
-# Advanced Mathematical Algorithmic Trading Framework for BTCUSDT
+# Advanced Mathematical Algorithmic Trading Model for BTCUSDT
 **Quantitative Trading System with Adaptive Risk Management**  
 
 
