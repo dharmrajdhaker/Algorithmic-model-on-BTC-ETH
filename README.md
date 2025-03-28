@@ -1,4 +1,4 @@
-# Algorithmic-model-on-BTC-ETH
+# Advanced mathematical-model-on-BTC-ETH
 
 # Algorithmic Trading Framework for Cryptocurrencies 
 
@@ -7,7 +7,7 @@
 |-----------------------|-------------|-------------|
 | Total Return          | 7000+%        | 150000+%        |
 | Sharpe Ratio          | 10.2        | 9.8         |
-| Max Drawdown          | 14.7%       | 29.3%       |
+| Max Drawdown          | 15%       | 29.3%       |
 | Win Rate              | 60%       | 60%       |
 
 ## 🚀 Core Features
@@ -16,6 +16,7 @@
   - Mathematical process-based Volatility Surges
   - Accurate reversal Detection
   - EMA/SMA Trend Filtering (5/9/60 periods)
+  - This strategy can counter both trending and reversal market
 - **Risk Management System**:
   - Dynamic stoploss, target and  Position Sizing
   - Trailing Stop-Loss (15% threshold)
