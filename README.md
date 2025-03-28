@@ -2,8 +2,6 @@
 
 # Algorithmic Trading Framework for Cryptocurrencies 
 
-![BTC Trading Signals Visualization](btc_signals.png)
-
 ## 🏆 Performance Metrics (2019-2023 Backtest)
 | Metric                | No Leverage | 2x Leverage |
 |-----------------------|-------------|-------------|
@@ -38,7 +36,6 @@
 # - btc_drawdown.png (risk analysis)![WhatsApp Image 2025-03-28 at 22 48 44](https://github.com/user-attachments/assets/48a5c6bc-f52b-4d2f-9bab-04c80f6c4bbf)
 # - btc_pnl.png ![WhatsApp Image 2025-03-28 at 22 44 00](https://github.com/user-attachments/assets/21e31fe6-f343-485b-b52e-c7c8d9e9e235)
 
-```
 ## 📊 Output Analysis
 | File                | Description                          |
 |---------------------|--------------------------------------|
@@ -47,9 +44,7 @@
 | `btc_drawdown.png`  | Risk profile analysis                |
 | `btc_pnl.png`       | Profit distribution histogram        |
 
-
-
 ## 📧 Contact
 **Dharmraj Dhaker**  
-[🔗 LinkedIn](https://linkedin.com/in/dharmrajdhaker)  
-📧 dharmrajdhaker@email.com
+[🔗 LinkedIn](www.linkedin.com/in/dharmraj-dhaker-a436b4250)  
+📧 dharmrajdhaker89@email.com
